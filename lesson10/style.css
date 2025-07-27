@@ -1,0 +1,24 @@
+.main-block {
+    background-color: rgb(87, 80, 80);
+    color: white;
+}
+
+.main-block span{
+    color: rgb(197, 104, 200);
+}
+
+.red-block {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
+
+.second-block {
+    background-color: rgb(178, 139, 215);
+    width: 300px;
+}
+
+.second-block span{
+    background-color: rgb(77, 25, 125);
+    color: white;
+}
