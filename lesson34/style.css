@@ -1,0 +1,34 @@
+.opensans-text {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.crossed-text {
+    text-decoration: line-through;
+}
+
+.uppercase-text {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+[decorated-text]{
+    line-height: 25px;
+}
+
+[decorated-text="top-decoration"]{
+    text-decoration: overline;
+    text-decoration-style: wavy;
+    color: rgb(82, 4, 82);
+    word-spacing: 30px;
+}
+
+[decorated-text="bottom-decoration"]{
+    text-decoration: underline;
+    text-decoration-style: double;
+    letter-spacing: 5px;
+    font-weight: bold;
+}
