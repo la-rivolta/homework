@@ -1,0 +1,238 @@
+body {
+    font-family: "Montserrat", "Arial", sans-serif;
+    color: white;
+    line-height: 150%;
+    font-size: 16px;
+    background: #181E34;
+}
+
+.container {
+    max-width: 940px;
+    margin: auto;
+    height: 100%;
+    padding: 0 15px;
+}
+
+/* ===================================================== */
+
+header {
+    padding: 30px 0 36px;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+    width: 48px;
+    height: 48px;
+}
+
+.right-menu {
+    display: flex;
+    text-align: center;
+    align-items: center;
+
+}
+
+.main-nav {
+    margin-left: auto;
+}
+
+.main-nav-item {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.login-button {
+    width: 114px;
+    height: 48px;
+    display: inline-block;
+    padding-top: 14px;
+    background: white;
+    color:  #2766AE;
+    border-radius: 100px;
+}
+
+/* ================================================== */
+
+.hero-section {
+    background: url("img/RectangleBG.png") 10% 50% / cover no-repeat;
+    background-size: cover;    
+    padding: 120px 0;
+}
+    
+h1 {
+    font-weight: 600;
+    font-size: 40px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+.hero-section-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero-section-text{
+    text-align: left;
+    max-width: 436px;
+}
+
+.hero-section-text p:first-child {
+    margin-bottom: 15px;
+}
+
+.hero-section-text p:first-child a{
+    color: #01A2CB;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.hero-buttons{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 320px;
+}
+
+.hero-button-one,
+.hero-button-two {
+    border-radius: 100px;
+    padding: 18px 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-buttons a:first-child {
+    margin-bottom: 10px;
+}
+
+.hero-button-one {
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+}
+
+.hero-button-two {
+    background: linear-gradient(95.22deg, #00A4CC 6.7%, #2766AE 91.35%);
+}
+
+.hero-button-two img{
+    margin-left: 4px;
+}
+
+/* ================================================== */
+
+.second-section {
+    padding: 120px 0;
+}
+
+.second-section-title {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 49px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.second-section-text {
+    text-align: center;
+    max-width: 513px;
+    margin: 0 auto 60px;
+}
+
+.card-item-title {
+    font-weight: 600;
+    font-size: 22px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.card-item-text {
+    max-width: 513px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cards-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+    margin-bottom: -28px;
+    padding-bottom: 30px;
+}
+
+.card-item{
+    margin-bottom: 28px;
+    padding: 0 14px;
+    flex: 0 0 25%;
+    text-align: center;
+}
+
+.card-item-inner {
+    background: #197CB8;
+    border: 2px solid #176BAE;
+    box-shadow: 4px 4px 13px rgba(5, 13, 41, 0.76);
+    border-radius: 16px;
+    padding: 28px 15px;
+}
+
+.second-section-button {
+    display: block;
+    border-radius: 100px;
+    padding: 18px 30px;
+    background: linear-gradient(180deg, #00A4CC 0%, #2766AE 100%);
+    text-align: center;
+    max-width: 436px;
+    margin: 0 auto;
+}
+
+/* =========================================== */
+
+.footer {
+    border-top: 1px solid #323952;
+    padding: 60px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-description {
+    max-width: 268px;
+    margin-right: auto;
+}
+
+.footer-description a {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.footer-col {
+    max-width: 204px;
+    width: 100%;
+}
+
+.footer-col-margin {
+    margin-right: 28px;
+}
+
+.footer-title {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 27px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+
+.footer-item {
+    margin-bottom: 10px;
+}
