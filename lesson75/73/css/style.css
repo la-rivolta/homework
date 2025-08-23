@@ -1,0 +1,58 @@
+body {
+    background: #1d1d1d;;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background: #4f4e4e;
+    display: block;
+    position: relative;
+    border-radius: 10px;;
+    margin-top: 200px;
+}
+
+.block::before, .block::after {
+    content: '';
+    position: absolute;
+}
+
+.block::before {
+    width: 0;
+    height: 0;
+    display: block;
+    border-radius: 10px;
+    top: -30%;
+    left: -100%;
+}
+
+.block::after{
+    display: inline-block;
+    color: #4f4e4e;
+    top: 50%;
+    left: 36%;
+}
+
+.block:hover::before, .block:hover::after {
+    transition-delay: .8s;
+    transition-duration: .3s;
+    transition-timing-function: ease;
+}
+
+.block:hover::before {
+    width: 600px;
+    height: 20px;
+    background: #ffffff;
+}
+
+.block:hover::after {
+    content: 'Успех!';
+    color:rgb(27, 175, 86);
+}
