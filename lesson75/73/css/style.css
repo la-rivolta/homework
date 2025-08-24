@@ -25,12 +25,12 @@ body {
 }
 
 .block::before {
-    width: 0;
-    height: 0;
+    width: 20px;
+    height: 20px;
     display: block;
-    border-radius: 10px;
     top: -30%;
-    left: -100%;
+    left: -56%;
+    transition: transform 3s ease-in-out;
 }
 
 .block::after{
@@ -41,18 +41,18 @@ body {
 }
 
 .block:hover::before, .block:hover::after {
-    transition-delay: .8s;
     transition-duration: .3s;
     transition-timing-function: ease;
 }
 
 .block:hover::before {
-    width: 600px;
-    height: 20px;
+    transform: scaleX(-20);
+    transform-origin: 100% 0%;
     background: #ffffff;
 }
 
 .block:hover::after {
     content: 'Успех!';
     color:rgb(27, 175, 86);
+    transition-delay: .8s;
 }
